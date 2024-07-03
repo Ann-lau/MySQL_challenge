@@ -80,3 +80,30 @@ VALUES
     ('E-learning Platform Development', 'Interactive course creation and delivery tools', '2024-09-15', 9),
     ('Bug Tracking and Issue Management System', 'Prioritization and collaboration features for bug reporting', '2024-12-31', 10);
 
+INSERT INTO TeamMembers (ProjectID, EmployeeID)
+VALUES
+    (1, 2),
+    (1, 3),
+    (2, 4),
+    (3, 1),
+    (4, 4),
+    (5, 6),
+    (6, 3),
+    (7, 1),
+    (8, 5),
+    (9, 6),
+    (10, 5);
+
+INSERT INTO ProjectTeam (ProjectID, EmployeeID, TeamLead)
+VALUES
+    (1, 2, 'No'),
+    (1, 3, 'No'),
+    (2, 4, 'No'),
+    (3, 1, 'No'),
+    (4, 4, 'No'),
+    (5, 6, 'No'),
+    (6, 3, 'No'),
+    (7, 1, 'No'),
+    (8, 5, 'No'),
+    (9, 6, 'No'),
+    (10, 5, 'No');
